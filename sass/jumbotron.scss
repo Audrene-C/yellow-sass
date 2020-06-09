@@ -1,0 +1,24 @@
+.jumbo-1 {
+    background: url('/images/bkg-hero-header.jpg') fixed center no-repeat;
+    background-size: cover;
+    span {
+        &::after {
+            content: ".";
+            color: $primary;
+        }
+    }
+    h1, .lead {
+        text-align: center;
+    }
+}
+
+.jumbo-2 {
+    text-align: center;
+}
+
+.jumbo-4 {
+    background: url('/images/bkg-testimonial.jpg') fixed center no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
